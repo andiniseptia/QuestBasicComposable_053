@@ -57,6 +57,15 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         ),
             modifier = Modifier.padding(top = 10.dp)
         )
+
+        Text(
+            text = "Ini adalah halaman login", style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                fontSize = 25.sp,
+                color = Color.Red
+            ),
+
+        )
      }
 }
 
