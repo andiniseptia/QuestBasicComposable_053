@@ -50,3 +50,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Project2_Andini_PAMTheme {
+        Greeting("Android")
+    }
+}
