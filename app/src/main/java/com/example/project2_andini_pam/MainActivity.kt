@@ -69,6 +69,14 @@ fun BasicCompose(modifier: Modifier = Modifier) {
 
         Image(painter = painterResource(id = R.drawable.logoumy), contentDescription = "",
             modifier = Modifier.size(205.dp).padding(top = 15.dp))
+
+        Text(
+            text = "Nama : ", style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                fontSize = 25.sp
+            ),
+
+        )
      }
 }
 
