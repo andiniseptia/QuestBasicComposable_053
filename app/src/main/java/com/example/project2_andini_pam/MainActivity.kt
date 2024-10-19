@@ -77,7 +77,17 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             ),
             modifier = Modifier.padding(top = 13.dp)
         )
-     }
+
+        Text(
+            text = "Andini Septi Andri", style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                fontSize = 25.sp,
+                color = Color.Red
+            ),
+
+        )
+
+    }
 }
 
 
