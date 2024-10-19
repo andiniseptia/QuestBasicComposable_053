@@ -49,6 +49,14 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(modifier: Modifier = Modifier) {
     Column  (horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize().background(Color.LightGray)){
+
+        Text(text = "Login", style = TextStyle(
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        ),
+
+        )
      }
 }
 
