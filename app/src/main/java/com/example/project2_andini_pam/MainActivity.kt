@@ -96,6 +96,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 10.dp).padding(bottom = 15.dp)
         )
 
+        Image(
+            painter = painterResource(id = R.drawable.andiniii), contentDescription = "",
+            modifier = Modifier.size(315.dp).clip(CircleShape))
     }
 }
 
